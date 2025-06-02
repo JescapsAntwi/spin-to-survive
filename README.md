@@ -80,7 +80,7 @@ src/
 ## 📸 Screenshots
 
 1. 🦁 Spin to Survive Game
-   ![Animal Racing Game](src/assets/images/spin-survive.png)
+   ![Spin to Survive Game](src/assets/images/spin-survive.png)
 
 ## 🎨 UI Components
 
