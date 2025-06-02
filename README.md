@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# Spin to Survive Slots
 
-## Project info
+A modern, interactive slot machine game built with React and TypeScript. This project offers an engaging gaming experience with smooth animations and a beautiful user interface.
 
-**URL**: https://lovable.dev/projects/218ea8a7-979b-4eeb-aa63-22a847611d3b
+## 🎮 Features
 
-## How can I edit this code?
+- Interactive slot machine gameplay
+- Modern and responsive UI design
+- Smooth animations and transitions
+- Real-time game state management
+- Cross-browser compatibility
 
-There are several ways of editing your application.
+## 🛠️ Technologies
 
-**Use Lovable**
+This project is built with a modern tech stack:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/218ea8a7-979b-4eeb-aa63-22a847611d3b) and start prompting.
+- **React 18** - For building the user interface
+- **TypeScript** - For type-safe code
+- **Vite** - For fast development and building
+- **Tailwind CSS** - For styling
+- **shadcn/ui** - For beautiful, accessible UI components
+- **React Router** - For navigation
+- **React Query** - For data fetching and state management
+- **Zod** - For runtime type checking and validation
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   ```bash
+   git clone https://github.com/yourusername/spin-to-survive-slots.git
+   cd spin-to-survive-slots
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
 
-# Step 3: Install the necessary dependencies.
-npm i
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## 📦 Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run build:dev` - Build the project for development
+- `npm run lint` - Run ESLint to check code quality
+- `npm run preview` - Preview the production build locally
+
+## 🏗️ Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions and configurations
+├── pages/         # Page components
+├── App.tsx        # Main application component
+└── main.tsx       # Application entry point
 ```
 
-**Edit a file directly in GitHub**
+## 📸 Screenshots
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. 🦁 Animal Racing Game
+   ![Animal Racing Game](src/assets/images/animal-racing.png)
 
-**Use GitHub Codespaces**
+## 🎨 UI Components
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project uses shadcn/ui, a collection of re-usable components built with Radix UI and Tailwind CSS. The components are highly customizable and accessible.
 
-## What technologies are used for this project?
+## 🔧 Development
 
-This project is built with:
+The project uses ESLint for code linting and TypeScript for type checking. Make sure to follow the established code style and best practices when contributing.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📝 License
 
-## How can I deploy this project?
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Simply open [Lovable](https://lovable.dev/projects/218ea8a7-979b-4eeb-aa63-22a847611d3b) and click on Share -> Publish.
+## 🤝 Contributing
 
-## Can I connect a custom domain to my Lovable project?
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-Yes, you can!
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📧 Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For any questions or suggestions, please open an issue in the repository.
