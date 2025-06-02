@@ -80,7 +80,7 @@ src/
 ## 📸 Screenshots
 
 1. 🦁 Animal Racing Game
-   ![Animal Racing Game](src/assets/images/animal-racing.png)
+   ![Animal Racing Game](src/assets/images/spin-survive.png)
 
 ## 🎨 UI Components
 
